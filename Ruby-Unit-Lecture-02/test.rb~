@@ -1,7 +1,0 @@
-require 'rubygems'
-require 'httparty'
-
-class Representative
-  include HTTParty
-end
-
