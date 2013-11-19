@@ -1,10 +1,25 @@
 # Build a Jukebox
- 
+while response != "exit"
+      response = gets.strip
+end 
 # When that program is run, it should introduce itself
 # to the user and accept input from the user using the gets command.
  
+puts "Welcome Jukebox 2.0"
+puts "(H)elp"
+puts "(P)lay"
+puts "(L)ist"
+puts "(E)xit"
+
 # The jukebox should respond to 4 commands, help, play, list and exit.
- 
+ case response
+ when /^help$/i
+ 	"help"
+ when /^play$/i
+ 	"play"
+ when /^list$/i
+ 	"list"
+ end
 # The help command should output instructions for the user
 # on how to use the jukebox.
  
