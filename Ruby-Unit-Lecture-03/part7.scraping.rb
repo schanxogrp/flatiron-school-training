@@ -5,7 +5,7 @@ html = open('http://newyork.craigslist.org/roo/')
 
 doc = Nokogiri::HTML(html)
 
-rents = doc.css("span.itemph")
+rents = doc.css("span.price")
 #
 # for each individual listing
 total_rent_price = 0
@@ -27,3 +27,32 @@ puts total_rent_price.to_f/real_listings
 # divide by amount of listings
 # => average rent of a room
 
+#links = doc.css("a")
+#links[0].attributes["href"].value]
+
+
+#scrape theknot and get a hash of all reception venues sorted by state
+#capture name/addres/phone/website
+
+the_knot = {
+	:alaksa => {
+		:venues => {[{
+			:name => "place",
+			:address => "123 fake street",
+			:phone => "123456789",
+			:website => "www.place.ly"
+			}]
+		}
+	}
+}
+
+#find the first venue that is located in alaska
+the_knot[:alaska][:venues].first
+
+#http://wedding.theknot.com/wedding-resources/wedding-reception-venues.aspx
+
+#Homework
+#Scrape The Knot - Get all reception venues by state, including name/address/phone/website. store in hash. We'll use this hash on thursday.
+
+#Parse the Reddit API: https://gist.github.com/spencer1248/4f4c409e3d3d231342b6
+#instead of scraping, use the api to get JSON and parse that.

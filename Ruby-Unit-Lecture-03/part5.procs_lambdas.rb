@@ -45,3 +45,4 @@ fuels = {gas: 102399232, oil: 23923, coal: 99238239}
 fuels.sort_by{|k,v| v}
 fuels.sort_by &:last
 fuels.sort_by &:first
+

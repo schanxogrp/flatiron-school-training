@@ -18,7 +18,21 @@
 # Note: All ruby methods accept blocks by default.
 # Complete the "my_each" method.
 
-def my_each
+
+#def my_each(argument)
+#  yield true
+#end
+
+def my_each(argument)
+  x = 0
+  while x < argument.size
+    yield argument[x]
+    x+=1
+  end
+  argument
+  #argument.each do |num|
+  #  yield num
+  #end
 end
 
 RSpec.configure do |config|
