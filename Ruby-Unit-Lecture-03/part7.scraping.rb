@@ -27,16 +27,20 @@ puts total_rent_price.to_f/real_listings
 # divide by amount of listings
 # => average rent of a room
 
-#links = doc.css("a")
-#links[0].attributes["href"].value]
+links = doc.css("a")
+puts links[0].attributes["href"].value
 
 
 #scrape theknot and get a hash of all reception venues sorted by state
 #capture name/addres/phone/website
 
+
 the_knot = {
-	:alaksa => {
-		:venues => {[{
+	:alaska => {
+		:venues => {
+			:data => 
+			[
+			{
 			:name => "place",
 			:address => "123 fake street",
 			:phone => "123456789",
@@ -46,10 +50,13 @@ the_knot = {
 	}
 }
 
+
 #find the first venue that is located in alaska
 the_knot[:alaska][:venues].first
 
 #http://wedding.theknot.com/wedding-resources/wedding-reception-venues.aspx
+#http://nokogiri.org/tutorials/parsing_an_html_xml_document.html
+
 
 #Homework
 #Scrape The Knot - Get all reception venues by state, including name/address/phone/website. store in hash. We'll use this hash on thursday.

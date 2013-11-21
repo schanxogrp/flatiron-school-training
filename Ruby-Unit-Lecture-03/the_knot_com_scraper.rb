@@ -3,6 +3,11 @@ require 'open-uri'
 
 html = open('http://localhost:3000')
 
+html = open('http://www.theknot.com')
+
+html = open("http://wedding.theknot.com/wedding-resources/wedding-reception-venues.aspx")
+
+
 doc = Nokogiri::HTML(html)
 
 links = doc.css("a")
