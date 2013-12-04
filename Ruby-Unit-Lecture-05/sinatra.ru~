@@ -1,0 +1,7 @@
+# config.ru
+require 'sinatra'
+
+get '/' do
+    "hello"
+end
+

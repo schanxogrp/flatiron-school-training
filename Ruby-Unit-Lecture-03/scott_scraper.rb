@@ -11,7 +11,7 @@ vendors_hash = {
 	     :alaska => {
 	     :venues => []
 	     }
-	     }
+}
 vendors.each_with_index do |vendor,i|
 	     links = vendor.css("a")
 	     vendor_link = links.first.attributes["href"].value
