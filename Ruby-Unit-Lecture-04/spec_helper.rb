@@ -1,6 +1,5 @@
 
 Dir["./spec/support/**/*.rb"].sort.each {|f| require f}
-
 require_relative './developer'
 require_relative './program'
 
