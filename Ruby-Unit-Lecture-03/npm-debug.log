@@ -1,0 +1,1347 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'jsbin' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose read json /usr/local/lib/package.json
+5 verbose read json /usr/local/lib/package.json
+6 verbose cache add [ 'jsbin', null ]
+7 verbose cache add name=undefined spec="jsbin" args=["jsbin",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'jsbin',
+8 verbose parsed url   path: 'jsbin',
+8 verbose parsed url   href: 'jsbin' }
+9 silly lockFile be419bfc-jsbin jsbin
+10 verbose lock jsbin /Users/schan/.npm/be419bfc-jsbin.lock
+11 silly lockFile be419bfc-jsbin jsbin
+12 silly lockFile be419bfc-jsbin jsbin
+13 verbose addNamed [ 'jsbin', '' ]
+14 verbose addNamed [ null, '' ]
+15 silly lockFile a880d82e-jsbin jsbin@
+16 verbose lock jsbin@ /Users/schan/.npm/a880d82e-jsbin.lock
+17 silly addNameRange { name: 'jsbin', range: '', hasData: false }
+18 verbose url raw jsbin
+19 verbose url resolving [ 'https://registry.npmjs.org/', './jsbin' ]
+20 verbose url resolved https://registry.npmjs.org/jsbin
+21 info trying registry request attempt 1 at 14:54:27
+22 http GET https://registry.npmjs.org/jsbin
+23 http 200 https://registry.npmjs.org/jsbin
+24 silly registry.get cb [ 200,
+24 silly registry.get   { vary: 'Accept',
+24 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+24 silly registry.get     etag: '"29FVU0R9OA2LY5KS2UFOB16OS"',
+24 silly registry.get     date: 'Fri, 06 Dec 2013 19:54:28 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '20161' } ]
+25 silly addNameRange number 2 { name: 'jsbin', range: '', hasData: true }
+26 silly addNameRange versions [ 'jsbin',
+26 silly addNameRange   [ '3.0.0',
+26 silly addNameRange     '3.0.1',
+26 silly addNameRange     '3.0.2',
+26 silly addNameRange     '3.0.18',
+26 silly addNameRange     '3.0.23',
+26 silly addNameRange     '3.2.17',
+26 silly addNameRange     '3.0.0-dev0' ] ]
+27 verbose addNamed [ 'jsbin', '3.2.17' ]
+28 verbose addNamed [ '3.2.17', '3.2.17' ]
+29 silly lockFile 9da02209-jsbin-3-2-17 jsbin@3.2.17
+30 verbose lock jsbin@3.2.17 /Users/schan/.npm/9da02209-jsbin-3-2-17.lock
+31 silly lockFile c582450b-npmjs-org-jsbin-jsbin-3-2-17-tgz https://registry.npmjs.org/jsbin/-/jsbin-3.2.17.tgz
+32 verbose lock https://registry.npmjs.org/jsbin/-/jsbin-3.2.17.tgz /Users/schan/.npm/c582450b-npmjs-org-jsbin-jsbin-3-2-17-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/jsbin/-/jsbin-3.2.17.tgz',
+33 verbose addRemoteTarball   'a90ef584342f6fff2f3338eeadac1da82936c43a' ]
+34 info retry fetch attempt 1 at 14:54:28
+35 verbose fetch to= /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/tmp.tgz
+36 http GET https://registry.npmjs.org/jsbin/-/jsbin-3.2.17.tgz
+37 http 200 https://registry.npmjs.org/jsbin/-/jsbin-3.2.17.tgz
+38 silly shasum updated bytes 65536
+39 silly shasum updated bytes 65536
+40 silly shasum updated bytes 65536
+41 silly shasum updated bytes 65536
+42 silly shasum updated bytes 65536
+43 silly shasum updated bytes 65536
+44 silly shasum updated bytes 65536
+45 silly shasum updated bytes 65536
+46 silly shasum updated bytes 65536
+47 silly shasum updated bytes 65536
+48 silly shasum updated bytes 65536
+49 silly shasum updated bytes 65536
+50 silly shasum updated bytes 65536
+51 silly shasum updated bytes 65536
+52 silly shasum updated bytes 65536
+53 silly shasum updated bytes 65536
+54 silly shasum updated bytes 65536
+55 silly shasum updated bytes 65536
+56 silly shasum updated bytes 65536
+57 silly shasum updated bytes 65536
+58 silly shasum updated bytes 65536
+59 silly shasum updated bytes 65536
+60 silly shasum updated bytes 65536
+61 silly shasum updated bytes 65536
+62 silly shasum updated bytes 65536
+63 silly shasum updated bytes 65536
+64 silly shasum updated bytes 65536
+65 silly shasum updated bytes 65536
+66 silly shasum updated bytes 65536
+67 silly shasum updated bytes 65536
+68 silly shasum updated bytes 65536
+69 silly shasum updated bytes 65536
+70 silly shasum updated bytes 65536
+71 silly shasum updated bytes 65536
+72 silly shasum updated bytes 65536
+73 silly shasum updated bytes 65536
+74 silly shasum updated bytes 65536
+75 silly shasum updated bytes 65536
+76 silly shasum updated bytes 65536
+77 silly shasum updated bytes 65536
+78 silly shasum updated bytes 65536
+79 silly shasum updated bytes 65536
+80 silly shasum updated bytes 65536
+81 silly shasum updated bytes 65536
+82 silly shasum updated bytes 65536
+83 silly shasum updated bytes 65536
+84 silly shasum updated bytes 65536
+85 silly shasum updated bytes 65536
+86 silly shasum updated bytes 65536
+87 silly shasum updated bytes 65536
+88 silly shasum updated bytes 65536
+89 silly shasum updated bytes 65536
+90 silly shasum updated bytes 65536
+91 silly shasum updated bytes 65536
+92 silly shasum updated bytes 65536
+93 silly shasum updated bytes 65536
+94 silly shasum updated bytes 65536
+95 silly shasum updated bytes 65536
+96 silly shasum updated bytes 65536
+97 silly shasum updated bytes 65536
+98 silly shasum updated bytes 65536
+99 silly shasum updated bytes 65536
+100 silly shasum updated bytes 65536
+101 silly shasum updated bytes 65536
+102 silly shasum updated bytes 65536
+103 silly shasum updated bytes 65536
+104 silly shasum updated bytes 65536
+105 silly shasum updated bytes 65536
+106 silly shasum updated bytes 65536
+107 silly shasum updated bytes 65536
+108 silly shasum updated bytes 65536
+109 silly shasum updated bytes 65536
+110 silly shasum updated bytes 65536
+111 silly shasum updated bytes 65536
+112 silly shasum updated bytes 65536
+113 silly shasum updated bytes 65536
+114 silly shasum updated bytes 65536
+115 silly shasum updated bytes 65536
+116 silly shasum updated bytes 65536
+117 silly shasum updated bytes 65536
+118 silly shasum updated bytes 61903
+119 info shasum a90ef584342f6fff2f3338eeadac1da82936c43a
+119 info shasum /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/tmp.tgz
+120 verbose tar unpack /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/tmp.tgz
+121 silly lockFile 9602cea3-668285-0-678269658703357-package /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package
+122 verbose lock /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package /Users/schan/.npm/9602cea3-668285-0-678269658703357-package.lock
+123 silly lockFile 663c52a5-668285-0-678269658703357-tmp-tgz /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/tmp.tgz
+124 verbose lock /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/tmp.tgz /Users/schan/.npm/663c52a5-668285-0-678269658703357-tmp-tgz.lock
+125 silly gunzTarPerm modes [ '755', '644' ]
+126 silly gunzTarPerm extractEntry package.json
+127 silly gunzTarPerm extractEntry .npmignore
+128 silly gunzTarPerm extractEntry Gruntfile.js
+129 silly gunzTarPerm extractEntry config.default.json
+130 silly gunzTarPerm extractEntry MIT-LICENSE.TXT
+131 silly gunzTarPerm extractEntry README.markdown
+132 silly gunzTarPerm extractEntry VERSION
+133 silly gunzTarPerm extractEntry bin/jsbin
+134 silly gunzTarPerm extractEntry build/populate.js
+135 silly gunzTarPerm extractEntry build/full-db-v3.mysql.sql
+136 silly gunzTarPerm extractEntry build/full-db-v3.sqlite.sql
+137 silly gunzTarPerm extractEntry build/upgrade/owners-active-jan-14-2013.mysql.sql
+138 silly gunzTarPerm extractEntry build/upgrade/owners-jan-2013.mysql.sql
+139 silly gunzTarPerm extractEntry build/upgrade/owners-jan-2013.sqlite.sql
+140 silly gunzTarPerm extractEntry build/upgrade/report.mysql.sql
+141 silly gunzTarPerm extractEntry build/upgrade/report.sqlite.sql
+142 silly gunzTarPerm extractEntry .nodemonignore
+143 silly gunzTarPerm extractEntry docs/2-minute-setup.md
+144 silly gunzTarPerm extractEntry docs/account-logic.md
+145 silly gunzTarPerm extractEntry docs/custom-settings.md
+146 silly gunzTarPerm extractEntry docs/development.md
+147 silly gunzTarPerm extractEntry docs/embedding.md
+148 silly gunzTarPerm extractEntry docs/ie8.md
+149 silly gunzTarPerm extractEntry docs/post.md
+150 silly gunzTarPerm extractEntry docs/running-your-own-jsbin.md
+151 silly gunzTarPerm extractEntry docs/when-do-revisions-change.md
+152 silly gunzTarPerm extractEntry jshint.json
+153 silly gunzTarPerm extractEntry lib/app.js
+154 silly gunzTarPerm extractEntry lib/config.js
+155 silly gunzTarPerm extractEntry lib/custom.js
+156 silly gunzTarPerm extractEntry lib/store.js
+157 silly gunzTarPerm extractEntry lib/errors.js
+158 silly gunzTarPerm extractEntry lib/routes.js
+159 silly gunzTarPerm extractEntry lib/helpers.js
+160 silly gunzTarPerm extractEntry lib/blacklist.js
+161 silly gunzTarPerm extractEntry lib/metrics.js
+162 silly gunzTarPerm extractEntry lib/middleware.js
+163 silly gunzTarPerm extractEntry lib/utils.js
+164 silly gunzTarPerm extractEntry lib/hogan.js
+165 silly gunzTarPerm extractEntry lib/models/bin.js
+166 silly gunzTarPerm extractEntry lib/models/forgot_token.js
+167 silly gunzTarPerm extractEntry lib/models/index.js
+168 silly gunzTarPerm extractEntry lib/models/user.js
+169 silly gunzTarPerm extractEntry lib/processors/index.js
+170 silly gunzTarPerm extractEntry lib/handlers/bin.js
+171 silly gunzTarPerm extractEntry lib/handlers/error.js
+172 silly gunzTarPerm extractEntry lib/handlers/index.js
+173 silly gunzTarPerm extractEntry lib/handlers/mail.js
+174 silly gunzTarPerm extractEntry lib/handlers/session.js
+175 silly gunzTarPerm extractEntry lib/spike/index.js
+176 silly gunzTarPerm extractEntry lib/db/mysql.js
+177 silly gunzTarPerm extractEntry lib/db/sqlite.js
+178 silly gunzTarPerm extractEntry lib/db/sql_templates.json
+179 silly gunzTarPerm extractEntry logs/access_log
+180 silly gunzTarPerm extractEntry logs/error_log
+181 silly gunzTarPerm extractEntry .allow-devtools-edit
+182 silly gunzTarPerm extractEntry public/humans.txt
+183 silly gunzTarPerm extractEntry public/about.html
+184 silly gunzTarPerm extractEntry public/custom/sebly/creativejs.js
+185 silly gunzTarPerm extractEntry public/custom/sebly/default.js
+186 silly gunzTarPerm extractEntry public/custom/sebly/config.json
+187 silly gunzTarPerm extractEntry public/custom/sebly/custom.css
+188 silly gunzTarPerm extractEntry public/custom/sebly/default.html
+189 silly gunzTarPerm extractEntry public/favicon.ico
+190 silly gunzTarPerm extractEntry public/font/SIL OFL Font License Source Code Pro.txt
+191 silly gunzTarPerm extractEntry public/font/SourceCodePro-Regular-webfont.eot
+192 silly gunzTarPerm extractEntry public/font/SourceCodePro-Regular-webfont.svg
+193 silly gunzTarPerm extractEntry public/font/SourceCodePro-Regular-webfont.ttf
+194 silly gunzTarPerm extractEntry public/font/SourceCodePro-Regular-webfont.woff
+195 silly gunzTarPerm extractEntry public/font/meslolgm-dz-regular-webfont.eot
+196 silly gunzTarPerm extractEntry public/font/meslolgm-dz-regular-webfont.svg
+197 silly gunzTarPerm extractEntry public/font/meslolgm-dz-regular-webfont.ttf
+198 silly gunzTarPerm extractEntry public/font/meslolgm-dz-regular-webfont.woff
+199 silly gunzTarPerm extractEntry public/help/bugs.html
+200 silly gunzTarPerm extractEntry public/help/faq.html
+201 silly gunzTarPerm extractEntry public/help/hackers.html
+202 silly gunzTarPerm extractEntry public/help/index.html
+203 silly gunzTarPerm extractEntry public/help/tips.html
+204 silly gunzTarPerm extractEntry public/help/who.html
+205 silly gunzTarPerm extractEntry public/help.html
+206 silly gunzTarPerm extractEntry public/css/htmlcodeframe.css
+207 silly gunzTarPerm extractEntry public/css/codeframe.css
+208 silly gunzTarPerm extractEntry public/css/csscolors.css
+209 silly gunzTarPerm extractEntry public/css/docs.css
+210 silly gunzTarPerm extractEntry public/css/edit.css
+211 silly gunzTarPerm extractEntry public/css/font.css
+212 silly gunzTarPerm extractEntry public/css/codemirror.css
+213 silly gunzTarPerm extractEntry public/css/ie.css
+214 silly gunzTarPerm extractEntry public/css/jscolors.css
+215 silly gunzTarPerm extractEntry public/css/pictos.css
+216 silly gunzTarPerm extractEntry public/css/style.css
+217 silly gunzTarPerm extractEntry public/css/xmlcolors.css
+218 silly gunzTarPerm extractEntry public/images/jsbin_static.png
+219 silly gunzTarPerm extractEntry public/images/check.png
+220 silly gunzTarPerm extractEntry public/images/close.png
+221 silly gunzTarPerm extractEntry public/images/down-arrow.png
+222 silly gunzTarPerm extractEntry public/images/down-hover.png
+223 silly gunzTarPerm extractEntry public/images/down.png
+224 silly gunzTarPerm extractEntry public/images/download.png
+225 silly gunzTarPerm extractEntry public/images/favicon.png
+226 silly gunzTarPerm extractEntry public/images/gear.png
+227 silly gunzTarPerm extractEntry public/images/html.gif
+228 silly gunzTarPerm extractEntry public/images/info.gif
+229 silly gunzTarPerm extractEntry public/images/javascript.gif
+230 silly gunzTarPerm extractEntry public/images/jsbin-bg.gif
+231 silly gunzTarPerm extractEntry public/images/jsbin_animated.gif
+232 silly gunzTarPerm extractEntry public/images/jsbin_header.png
+233 silly gunzTarPerm extractEntry public/images/chosen-sprite.png
+234 silly gunzTarPerm extractEntry public/images/ll-logo.gif
+235 silly gunzTarPerm extractEntry public/images/logo.png
+236 silly gunzTarPerm extractEntry public/images/logo2.png
+237 silly gunzTarPerm extractEntry public/images/new-dark.png
+238 silly gunzTarPerm extractEntry public/images/new-light.png
+239 silly gunzTarPerm extractEntry public/images/op7.png
+240 silly gunzTarPerm extractEntry public/images/play.gif
+241 silly gunzTarPerm extractEntry public/images/popout.png
+242 silly gunzTarPerm extractEntry public/images/revert-disabled.png
+243 silly gunzTarPerm extractEntry public/images/revert.png
+244 silly gunzTarPerm extractEntry public/images/tick.png
+245 silly gunzTarPerm extractEntry public/images/tipsy.gif
+246 silly gunzTarPerm extractEntry public/images/x_7x7.png
+247 silly gunzTarPerm extractEntry public/images/x_alt_12x12.png
+248 silly gunzTarPerm extractEntry public/js/outro.js
+249 silly gunzTarPerm extractEntry public/js/embed.js
+250 silly gunzTarPerm extractEntry public/js/intro.js
+251 silly gunzTarPerm extractEntry public/js/jsbin.js
+252 silly gunzTarPerm extractEntry public/js/spike.js
+253 silly gunzTarPerm extractEntry public/js/chrome/analytics.js
+254 silly gunzTarPerm extractEntry public/js/chrome/esc.js
+255 silly gunzTarPerm extractEntry public/js/chrome/file-drop.js
+256 silly gunzTarPerm extractEntry public/js/chrome/gist.js
+257 silly gunzTarPerm extractEntry public/js/chrome/errors.js
+258 silly gunzTarPerm extractEntry public/js/chrome/login.js
+259 silly gunzTarPerm extractEntry public/js/chrome/navigation.js
+260 silly gunzTarPerm extractEntry public/js/chrome/sandbox.js
+261 silly gunzTarPerm extractEntry public/js/chrome/save.js
+262 silly gunzTarPerm extractEntry public/js/chrome/splitter.js
+263 silly gunzTarPerm extractEntry public/js/chrome/download.js
+264 silly gunzTarPerm extractEntry public/js/chrome/storage.js
+265 silly gunzTarPerm extractEntry public/js/chrome/app.js
+266 silly gunzTarPerm extractEntry public/js/chrome/tips.js
+267 silly gunzTarPerm extractEntry public/js/chrome/hashbang-jump.js
+268 silly gunzTarPerm extractEntry public/js/deprecated/beta.js
+269 silly gunzTarPerm extractEntry public/js/deprecated/consoleContext.js
+270 silly gunzTarPerm extractEntry public/js/deprecated/events.js
+271 silly gunzTarPerm extractEntry public/js/deprecated/jquery.tipsy.js
+272 silly gunzTarPerm extractEntry public/js/deprecated/lightbox.js
+273 silly gunzTarPerm extractEntry public/js/deprecated/remote.js
+274 silly gunzTarPerm extractEntry public/js/deprecated/stream.js
+275 silly gunzTarPerm extractEntry public/js/processors/processor.js
+276 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.11.js
+277 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.11.min.js
+278 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.13.js
+279 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.13.min.js
+280 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.14.js
+281 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.14.min.js
+282 silly gunzTarPerm extractEntry public/js/prod/jsbin.map.json
+283 silly gunzTarPerm extractEntry public/js/render/console.js
+284 silly gunzTarPerm extractEntry public/js/render/edit.js
+285 silly gunzTarPerm extractEntry public/js/render/live.js
+286 silly gunzTarPerm extractEntry public/js/render/render.js
+287 silly gunzTarPerm extractEntry public/js/render/saved-history-preview.js
+288 silly gunzTarPerm extractEntry public/js/editors/autocomplete.js
+289 silly gunzTarPerm extractEntry public/js/editors/editors.js
+290 silly gunzTarPerm extractEntry public/js/editors/keycontrol.js
+291 silly gunzTarPerm extractEntry public/js/editors/libraries.js
+292 silly gunzTarPerm extractEntry public/js/editors/codemirror.js
+293 silly gunzTarPerm extractEntry public/js/editors/mobileCodeMirror.js
+294 silly gunzTarPerm extractEntry public/js/editors/panel.js
+295 silly gunzTarPerm extractEntry public/js/editors/snippets.cm.js
+296 silly gunzTarPerm extractEntry public/js/editors/sync-worker.js
+297 silly gunzTarPerm extractEntry public/js/editors/unsaved.js
+298 silly gunzTarPerm extractEntry public/js/editors/library.js
+299 silly gunzTarPerm extractEntry public/js/vendor/typescript.min.js
+300 silly gunzTarPerm extractEntry public/js/vendor/jade.js
+301 silly gunzTarPerm extractEntry public/js/vendor/jquery.js
+302 silly gunzTarPerm extractEntry public/js/vendor/traceur.js
+303 silly gunzTarPerm extractEntry public/js/vendor/eventsource.js
+304 silly gunzTarPerm extractEntry public/js/vendor/stylus.js
+305 silly gunzTarPerm extractEntry public/js/vendor/markdown.js
+306 silly gunzTarPerm extractEntry public/js/vendor/polyfills.js
+307 silly gunzTarPerm extractEntry public/js/vendor/pretty-date.js
+308 silly gunzTarPerm extractEntry public/js/vendor/prettyprint.js
+309 silly gunzTarPerm extractEntry public/js/vendor/diff_match_patch_uncompressed.js
+310 silly gunzTarPerm extractEntry public/js/vendor/processing.min.js
+311 silly gunzTarPerm extractEntry public/js/vendor/coffee-script.js
+312 silly gunzTarPerm extractEntry public/js/vendor/stacktrace.js
+313 silly gunzTarPerm extractEntry public/js/vendor/json2.js
+314 silly gunzTarPerm extractEntry public/js/vendor/less-1.3.0.min.js
+315 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/package.json
+316 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/README.md
+317 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/LICENSE
+318 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/modes.html
+319 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/baboon.png
+320 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/compress.html
+321 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/docs.css
+322 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/internals.html
+323 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/manual.html
+324 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/baboon_vector.svg
+325 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/oldrelease.html
+326 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/realworld.html
+327 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/reporting.html
+328 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/upgrade_v2.2.html
+329 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/upgrade_v3.html
+330 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/dialog/dialog.js
+331 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/dialog/dialog.css
+332 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/closebrackets.js
+333 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/closetag.js
+334 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/continuecomment.js
+335 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/continuelist.js
+336 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/matchbrackets.js
+337 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/fold/collapserange.js
+338 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/fold/foldcode.js
+339 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/format/formatting.js
+340 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/javascript-hint.js
+341 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/pig-hint.js
+342 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/python-hint.js
+343 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/show-hint.js
+344 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/simple-hint.js
+345 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/xml-hint.js
+346 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/show-hint.css
+347 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/simple-hint.css
+348 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/lint/javascript-lint.js
+349 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/lint/json-lint.js
+350 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/lint/lint.js
+351 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/lint/lint.css
+352 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/mode/loadmode.js
+353 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/mode/multiplex.js
+354 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/mode/overlay.js
+355 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/runmode/colorize.js
+356 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/runmode/runmode-standalone.js
+357 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/runmode/runmode.js
+358 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/runmode/runmode.node.js
+359 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/search/match-highlighter.js
+360 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/search/search.js
+361 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/search/searchcursor.js
+362 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/selection/active-line.js
+363 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/selection/mark-selection.js
+364 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/bin/compress
+365 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/marker.html
+366 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/activeline.html
+367 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/btree.html
+368 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/buffers.html
+369 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/changemode.html
+370 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/closebrackets.html
+371 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/closetag.html
+372 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/collapserange.html
+373 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/complete.html
+374 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/emacs.html
+375 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/folding.html
+376 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/formatting.html
+377 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/fullscreen.html
+378 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/lint.html
+379 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/loadmode.html
+380 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/bidi.html
+381 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/markselection.html
+382 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/matchhighlighter.html
+383 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/multiplex.html
+384 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/mustache.html
+385 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/preview.html
+386 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/resize.html
+387 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/runmode.html
+388 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/search.html
+389 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/theme.html
+390 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/variableheight.html
+391 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/vim.html
+392 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/visibletabs.html
+393 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/widget.html
+394 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/xmlcomplete.html
+395 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/CONTRIBUTING.md
+396 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/index.html
+397 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/keymap/emacs.js
+398 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/keymap/vim.js
+399 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/lib/codemirror.js
+400 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/lib/codemirror.css
+401 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/meta.js
+402 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/php/php.js
+403 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/php/index.html
+404 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clike/clike.js
+405 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clike/index.html
+406 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clike/scala.html
+407 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clojure/clojure.js
+408 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clojure/index.html
+409 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/coffeescript/LICENSE
+410 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/coffeescript/coffeescript.js
+411 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/coffeescript/index.html
+412 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/commonlisp/commonlisp.js
+413 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/commonlisp/index.html
+414 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/css/css.js
+415 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/css/test.js
+416 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/css/index.html
+417 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/d/d.js
+418 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/d/index.html
+419 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/diff/diff.js
+420 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/diff/index.html
+421 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ecl/ecl.js
+422 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ecl/index.html
+423 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/erlang/erlang.js
+424 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/erlang/index.html
+425 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/gfm/gfm.js
+426 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/gfm/test.js
+427 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/gfm/index.html
+428 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/go/go.js
+429 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/go/index.html
+430 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/groovy/groovy.js
+431 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/groovy/index.html
+432 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/haskell/haskell.js
+433 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/haskell/index.html
+434 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/haxe/haxe.js
+435 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/haxe/index.html
+436 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/htmlembedded/htmlembedded.js
+437 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/htmlembedded/index.html
+438 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/htmlmixed/htmlmixed.js
+439 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/htmlmixed/index.html
+440 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/http/http.js
+441 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/http/index.html
+442 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/javascript/javascript.js
+443 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/javascript/index.html
+444 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/javascript/typescript.html
+445 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/jinja2/jinja2.js
+446 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/jinja2/index.html
+447 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/less/less.js
+448 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/less/index.html
+449 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/lua/lua.js
+450 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/lua/index.html
+451 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/markdown/markdown.js
+452 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/markdown/test.js
+453 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/markdown/index.html
+454 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/apl/apl.js
+455 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/apl/index.html
+456 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/mysql/mysql.js
+457 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/mysql/index.html
+458 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ntriples/ntriples.js
+459 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ntriples/index.html
+460 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ocaml/ocaml.js
+461 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ocaml/index.html
+462 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pascal/LICENSE
+463 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pascal/pascal.js
+464 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pascal/index.html
+465 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/perl/LICENSE
+466 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/perl/perl.js
+467 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/perl/index.html
+468 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/asterisk/asterisk.js
+469 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/asterisk/index.html
+470 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pig/pig.js
+471 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pig/index.html
+472 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/plsql/plsql.js
+473 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/plsql/index.html
+474 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/properties/properties.js
+475 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/properties/index.html
+476 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/python/python.js
+477 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/python/LICENSE.txt
+478 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/python/index.html
+479 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/q/q.js
+480 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/q/index.html
+481 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/r/LICENSE
+482 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/r/r.js
+483 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/r/index.html
+484 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/changes/changes.js
+485 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/changes/index.html
+486 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/spec/spec.js
+487 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/spec/index.html
+488 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/spec/spec.css
+489 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rst/rst.js
+490 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rst/index.html
+491 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ruby/LICENSE
+492 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ruby/ruby.js
+493 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ruby/index.html
+494 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rust/rust.js
+495 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rust/index.html
+496 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sass/sass.js
+497 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sass/index.html
+498 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/scheme/scheme.js
+499 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/scheme/index.html
+500 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/shell/shell.js
+501 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/shell/index.html
+502 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sieve/LICENSE
+503 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sieve/sieve.js
+504 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sieve/index.html
+505 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/smalltalk/smalltalk.js
+506 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/smalltalk/index.html
+507 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/smarty/smarty.js
+508 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/smarty/index.html
+509 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sparql/sparql.js
+510 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sparql/index.html
+511 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sql/sql.js
+512 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sql/index.html
+513 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/stex/stex.js
+514 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/stex/test.js
+515 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/stex/index.html
+516 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiddlywiki/tiddlywiki.js
+517 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiddlywiki/index.html
+518 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiddlywiki/tiddlywiki.css
+519 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiki/tiki.js
+520 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiki/index.html
+521 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiki/tiki.css
+522 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/turtle/turtle.js
+523 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/turtle/index.html
+524 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vb/vb.js
+525 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vb/LICENSE.txt
+526 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vb/index.html
+527 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vbscript/vbscript.js
+528 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vbscript/index.html
+529 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/velocity/velocity.js
+530 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/velocity/index.html
+531 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/verilog/verilog.js
+532 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/verilog/index.html
+533 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xml/xml.js
+534 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xml/index.html
+535 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xquery/LICENSE
+536 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xquery/test.js
+537 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xquery/xquery.js
+538 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xquery/index.html
+539 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/yaml/yaml.js
+540 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/yaml/index.html
+541 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/z80/z80.js
+542 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/z80/index.html
+543 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/.travis.yml
+544 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/doc_test.js
+545 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/driver.js
+546 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/mode_test.js
+547 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/phantom_driver.js
+548 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/run.js
+549 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/test.js
+550 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/vim_test.js
+551 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/index.html
+552 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/lint/acorn.js
+553 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/lint/lint.js
+554 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/lint/parse-js.js
+555 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/lint/walk.js
+556 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/mode_test.css
+557 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/monokai.css
+558 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/ambiance-mobile.css
+559 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/blackboard.css
+560 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/cobalt.css
+561 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/eclipse.css
+562 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/elegant.css
+563 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/erlang-dark.css
+564 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/lesser-dark.css
+565 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/ambiance.css
+566 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/neat.css
+567 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/night.css
+568 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/rubyblue.css
+569 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/solarized.css
+570 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/twilight.css
+571 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/vibrant-ink.css
+572 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/xq-dark.css
+573 silly gunzTarPerm extractEntry public/js/vendor/jshint/jshint.js
+574 silly gunzTarPerm extractEntry public/js/vendor/cm_addons/emmet.js
+575 silly gunzTarPerm extractEntry public/js/vendor/cm_addons/javascript-hint.js
+576 silly gunzTarPerm extractEntry public/js/vendor/cm_addons/simple-hint.js
+577 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/app.js
+578 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/background.js
+579 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon128.png
+580 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon16.png
+581 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon48.png
+582 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon_128.png
+583 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon_16.png
+584 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon_48.png
+585 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/manifest.json
+586 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome-updates.xml
+587 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/app.js
+588 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/Icon-128.png
+589 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/Icon-16.png
+590 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/Icon-48.png
+591 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/Info.plist
+592 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/background.html
+593 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/1280x800.png
+594 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/1400x500.png
+595 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/1400x560.png
+596 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/1400x580.png
+597 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/480x280.png
+598 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/640x400.png
+599 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin.crx
+600 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin.safariextz
+601 silly gunzTarPerm extractEntry public/post.html
+602 silly gunzTarPerm extractEntry public/sandbox.html
+603 silly gunzTarPerm extractEntry public/tips.json
+604 silly gunzTarPerm extractEntry scripts.json
+605 silly gunzTarPerm extractEntry views/default.js
+606 silly gunzTarPerm extractEntry views/not_found.js
+607 silly gunzTarPerm extractEntry views/history.html
+608 silly gunzTarPerm extractEntry views/default.css
+609 silly gunzTarPerm extractEntry views/default.html
+610 silly gunzTarPerm extractEntry views/account.html
+611 silly gunzTarPerm extractEntry views/error.html
+612 silly gunzTarPerm extractEntry views/error_email.txt
+613 silly gunzTarPerm extractEntry views/analytics.html
+614 silly gunzTarPerm extractEntry views/index.html
+615 silly gunzTarPerm extractEntry views/list.html
+616 silly gunzTarPerm extractEntry views/not_found.html
+617 silly gunzTarPerm extractEntry views/comment.html
+618 silly gunzTarPerm extractEntry views/report.html
+619 silly gunzTarPerm extractEntry views/report_email.txt
+620 silly gunzTarPerm extractEntry views/request.html
+621 silly gunzTarPerm extractEntry views/reset_email.txt
+622 verbose read json /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package/package.json
+623 silly lockFile 9602cea3-668285-0-678269658703357-package /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package
+624 silly lockFile 9602cea3-668285-0-678269658703357-package /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package
+625 silly lockFile 663c52a5-668285-0-678269658703357-tmp-tgz /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/tmp.tgz
+626 silly lockFile 663c52a5-668285-0-678269658703357-tmp-tgz /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/tmp.tgz
+627 verbose from cache /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package/package.json
+628 verbose tar pack [ '/Users/schan/.npm/jsbin/3.2.17/package.tgz',
+628 verbose tar pack   '/var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package' ]
+629 verbose tarball /Users/schan/.npm/jsbin/3.2.17/package.tgz
+630 verbose folder /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package
+631 silly lockFile 9602cea3-668285-0-678269658703357-package /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package
+632 verbose lock /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package /Users/schan/.npm/9602cea3-668285-0-678269658703357-package.lock
+633 silly lockFile 379eea2d-han-npm-jsbin-3-2-17-package-tgz /Users/schan/.npm/jsbin/3.2.17/package.tgz
+634 verbose lock /Users/schan/.npm/jsbin/3.2.17/package.tgz /Users/schan/.npm/379eea2d-han-npm-jsbin-3-2-17-package-tgz.lock
+635 silly lockFile 9602cea3-668285-0-678269658703357-package /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package
+636 silly lockFile 9602cea3-668285-0-678269658703357-package /var/folders/15/8y8v07994x1f58gg5md8qg100000gp/T/npm-17249/1386359668285-0.678269658703357/package
+637 silly lockFile 379eea2d-han-npm-jsbin-3-2-17-package-tgz /Users/schan/.npm/jsbin/3.2.17/package.tgz
+638 silly lockFile 379eea2d-han-npm-jsbin-3-2-17-package-tgz /Users/schan/.npm/jsbin/3.2.17/package.tgz
+639 silly lockFile a10b44c0-s-schan-npm-jsbin-3-2-17-package /Users/schan/.npm/jsbin/3.2.17/package
+640 verbose lock /Users/schan/.npm/jsbin/3.2.17/package /Users/schan/.npm/a10b44c0-s-schan-npm-jsbin-3-2-17-package.lock
+641 silly lockFile a10b44c0-s-schan-npm-jsbin-3-2-17-package /Users/schan/.npm/jsbin/3.2.17/package
+642 silly lockFile a10b44c0-s-schan-npm-jsbin-3-2-17-package /Users/schan/.npm/jsbin/3.2.17/package
+643 verbose tar unpack /Users/schan/.npm/jsbin/3.2.17/package.tgz
+644 silly lockFile a10b44c0-s-schan-npm-jsbin-3-2-17-package /Users/schan/.npm/jsbin/3.2.17/package
+645 verbose lock /Users/schan/.npm/jsbin/3.2.17/package /Users/schan/.npm/a10b44c0-s-schan-npm-jsbin-3-2-17-package.lock
+646 silly lockFile 379eea2d-han-npm-jsbin-3-2-17-package-tgz /Users/schan/.npm/jsbin/3.2.17/package.tgz
+647 verbose lock /Users/schan/.npm/jsbin/3.2.17/package.tgz /Users/schan/.npm/379eea2d-han-npm-jsbin-3-2-17-package-tgz.lock
+648 silly gunzTarPerm modes [ '755', '644' ]
+649 silly gunzTarPerm extractEntry package.json
+650 silly gunzTarPerm extractEntry .npmignore
+651 silly gunzTarPerm extractEntry Gruntfile.js
+652 silly gunzTarPerm extractEntry config.default.json
+653 silly gunzTarPerm extractEntry MIT-LICENSE.TXT
+654 silly gunzTarPerm extractEntry README.markdown
+655 silly gunzTarPerm extractEntry VERSION
+656 silly gunzTarPerm extractEntry bin/jsbin
+657 silly gunzTarPerm extractEntry build/populate.js
+658 silly gunzTarPerm extractEntry build/full-db-v3.mysql.sql
+659 silly gunzTarPerm extractEntry build/full-db-v3.sqlite.sql
+660 silly gunzTarPerm extractEntry build/upgrade/owners-active-jan-14-2013.mysql.sql
+661 silly gunzTarPerm extractEntry build/upgrade/owners-jan-2013.mysql.sql
+662 silly gunzTarPerm extractEntry build/upgrade/owners-jan-2013.sqlite.sql
+663 silly gunzTarPerm extractEntry build/upgrade/report.mysql.sql
+664 silly gunzTarPerm extractEntry build/upgrade/report.sqlite.sql
+665 silly gunzTarPerm extractEntry .nodemonignore
+666 silly gunzTarPerm extractEntry docs/2-minute-setup.md
+667 silly gunzTarPerm extractEntry docs/account-logic.md
+668 silly gunzTarPerm extractEntry docs/custom-settings.md
+669 silly gunzTarPerm extractEntry docs/development.md
+670 silly gunzTarPerm extractEntry docs/embedding.md
+671 silly gunzTarPerm extractEntry docs/ie8.md
+672 silly gunzTarPerm extractEntry docs/post.md
+673 silly gunzTarPerm extractEntry docs/running-your-own-jsbin.md
+674 silly gunzTarPerm extractEntry docs/when-do-revisions-change.md
+675 silly gunzTarPerm extractEntry jshint.json
+676 silly gunzTarPerm extractEntry lib/app.js
+677 silly gunzTarPerm extractEntry lib/config.js
+678 silly gunzTarPerm extractEntry lib/custom.js
+679 silly gunzTarPerm extractEntry lib/store.js
+680 silly gunzTarPerm extractEntry lib/errors.js
+681 silly gunzTarPerm extractEntry lib/routes.js
+682 silly gunzTarPerm extractEntry lib/helpers.js
+683 silly gunzTarPerm extractEntry lib/blacklist.js
+684 silly gunzTarPerm extractEntry lib/metrics.js
+685 silly gunzTarPerm extractEntry lib/middleware.js
+686 silly gunzTarPerm extractEntry lib/utils.js
+687 silly gunzTarPerm extractEntry lib/hogan.js
+688 silly gunzTarPerm extractEntry lib/models/bin.js
+689 silly gunzTarPerm extractEntry lib/models/forgot_token.js
+690 silly gunzTarPerm extractEntry lib/models/index.js
+691 silly gunzTarPerm extractEntry lib/models/user.js
+692 silly gunzTarPerm extractEntry lib/processors/index.js
+693 silly gunzTarPerm extractEntry lib/handlers/bin.js
+694 silly gunzTarPerm extractEntry lib/handlers/error.js
+695 silly gunzTarPerm extractEntry lib/handlers/index.js
+696 silly gunzTarPerm extractEntry lib/handlers/mail.js
+697 silly gunzTarPerm extractEntry lib/handlers/session.js
+698 silly gunzTarPerm extractEntry lib/spike/index.js
+699 silly gunzTarPerm extractEntry lib/db/mysql.js
+700 silly gunzTarPerm extractEntry lib/db/sqlite.js
+701 silly gunzTarPerm extractEntry lib/db/sql_templates.json
+702 silly gunzTarPerm extractEntry logs/access_log
+703 silly gunzTarPerm extractEntry logs/error_log
+704 silly gunzTarPerm extractEntry .allow-devtools-edit
+705 silly gunzTarPerm extractEntry public/humans.txt
+706 silly gunzTarPerm extractEntry public/about.html
+707 silly gunzTarPerm extractEntry public/custom/sebly/creativejs.js
+708 silly gunzTarPerm extractEntry public/custom/sebly/default.js
+709 silly gunzTarPerm extractEntry public/custom/sebly/config.json
+710 silly gunzTarPerm extractEntry public/custom/sebly/custom.css
+711 silly gunzTarPerm extractEntry public/custom/sebly/default.html
+712 silly gunzTarPerm extractEntry public/favicon.ico
+713 silly gunzTarPerm extractEntry public/font/SIL OFL Font License Source Code Pro.txt
+714 silly gunzTarPerm extractEntry public/font/SourceCodePro-Regular-webfont.eot
+715 silly gunzTarPerm extractEntry public/font/SourceCodePro-Regular-webfont.svg
+716 silly gunzTarPerm extractEntry public/font/SourceCodePro-Regular-webfont.ttf
+717 silly gunzTarPerm extractEntry public/font/SourceCodePro-Regular-webfont.woff
+718 silly gunzTarPerm extractEntry public/font/meslolgm-dz-regular-webfont.eot
+719 silly gunzTarPerm extractEntry public/font/meslolgm-dz-regular-webfont.svg
+720 silly gunzTarPerm extractEntry public/font/meslolgm-dz-regular-webfont.ttf
+721 silly gunzTarPerm extractEntry public/font/meslolgm-dz-regular-webfont.woff
+722 silly gunzTarPerm extractEntry public/help/bugs.html
+723 silly gunzTarPerm extractEntry public/help/faq.html
+724 silly gunzTarPerm extractEntry public/help/hackers.html
+725 silly gunzTarPerm extractEntry public/help/index.html
+726 silly gunzTarPerm extractEntry public/help/tips.html
+727 silly gunzTarPerm extractEntry public/help/who.html
+728 silly gunzTarPerm extractEntry public/help.html
+729 silly gunzTarPerm extractEntry public/css/htmlcodeframe.css
+730 silly gunzTarPerm extractEntry public/css/codeframe.css
+731 silly gunzTarPerm extractEntry public/css/csscolors.css
+732 silly gunzTarPerm extractEntry public/css/docs.css
+733 silly gunzTarPerm extractEntry public/css/edit.css
+734 silly gunzTarPerm extractEntry public/css/font.css
+735 silly gunzTarPerm extractEntry public/css/codemirror.css
+736 silly gunzTarPerm extractEntry public/css/ie.css
+737 silly gunzTarPerm extractEntry public/css/jscolors.css
+738 silly gunzTarPerm extractEntry public/css/pictos.css
+739 silly gunzTarPerm extractEntry public/css/style.css
+740 silly gunzTarPerm extractEntry public/css/xmlcolors.css
+741 silly gunzTarPerm extractEntry public/images/jsbin_static.png
+742 silly gunzTarPerm extractEntry public/images/check.png
+743 silly gunzTarPerm extractEntry public/images/close.png
+744 silly gunzTarPerm extractEntry public/images/down-arrow.png
+745 silly gunzTarPerm extractEntry public/images/down-hover.png
+746 silly gunzTarPerm extractEntry public/images/down.png
+747 silly gunzTarPerm extractEntry public/images/download.png
+748 silly gunzTarPerm extractEntry public/images/favicon.png
+749 silly gunzTarPerm extractEntry public/images/gear.png
+750 silly gunzTarPerm extractEntry public/images/html.gif
+751 silly gunzTarPerm extractEntry public/images/info.gif
+752 silly gunzTarPerm extractEntry public/images/javascript.gif
+753 silly gunzTarPerm extractEntry public/images/jsbin-bg.gif
+754 silly gunzTarPerm extractEntry public/images/jsbin_animated.gif
+755 silly gunzTarPerm extractEntry public/images/jsbin_header.png
+756 silly gunzTarPerm extractEntry public/images/chosen-sprite.png
+757 silly gunzTarPerm extractEntry public/images/ll-logo.gif
+758 silly gunzTarPerm extractEntry public/images/logo.png
+759 silly gunzTarPerm extractEntry public/images/logo2.png
+760 silly gunzTarPerm extractEntry public/images/new-dark.png
+761 silly gunzTarPerm extractEntry public/images/new-light.png
+762 silly gunzTarPerm extractEntry public/images/op7.png
+763 silly gunzTarPerm extractEntry public/images/play.gif
+764 silly gunzTarPerm extractEntry public/images/popout.png
+765 silly gunzTarPerm extractEntry public/images/revert-disabled.png
+766 silly gunzTarPerm extractEntry public/images/revert.png
+767 silly gunzTarPerm extractEntry public/images/tick.png
+768 silly gunzTarPerm extractEntry public/images/tipsy.gif
+769 silly gunzTarPerm extractEntry public/images/x_7x7.png
+770 silly gunzTarPerm extractEntry public/images/x_alt_12x12.png
+771 silly gunzTarPerm extractEntry public/js/outro.js
+772 silly gunzTarPerm extractEntry public/js/embed.js
+773 silly gunzTarPerm extractEntry public/js/intro.js
+774 silly gunzTarPerm extractEntry public/js/jsbin.js
+775 silly gunzTarPerm extractEntry public/js/spike.js
+776 silly gunzTarPerm extractEntry public/js/chrome/analytics.js
+777 silly gunzTarPerm extractEntry public/js/chrome/esc.js
+778 silly gunzTarPerm extractEntry public/js/chrome/file-drop.js
+779 silly gunzTarPerm extractEntry public/js/chrome/gist.js
+780 silly gunzTarPerm extractEntry public/js/chrome/errors.js
+781 silly gunzTarPerm extractEntry public/js/chrome/login.js
+782 silly gunzTarPerm extractEntry public/js/chrome/navigation.js
+783 silly gunzTarPerm extractEntry public/js/chrome/sandbox.js
+784 silly gunzTarPerm extractEntry public/js/chrome/save.js
+785 silly gunzTarPerm extractEntry public/js/chrome/splitter.js
+786 silly gunzTarPerm extractEntry public/js/chrome/download.js
+787 silly gunzTarPerm extractEntry public/js/chrome/storage.js
+788 silly gunzTarPerm extractEntry public/js/chrome/app.js
+789 silly gunzTarPerm extractEntry public/js/chrome/tips.js
+790 silly gunzTarPerm extractEntry public/js/chrome/hashbang-jump.js
+791 silly gunzTarPerm extractEntry public/js/deprecated/beta.js
+792 silly gunzTarPerm extractEntry public/js/deprecated/consoleContext.js
+793 silly gunzTarPerm extractEntry public/js/deprecated/events.js
+794 silly gunzTarPerm extractEntry public/js/deprecated/jquery.tipsy.js
+795 silly gunzTarPerm extractEntry public/js/deprecated/lightbox.js
+796 silly gunzTarPerm extractEntry public/js/deprecated/remote.js
+797 silly gunzTarPerm extractEntry public/js/deprecated/stream.js
+798 silly gunzTarPerm extractEntry public/js/processors/processor.js
+799 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.11.js
+800 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.11.min.js
+801 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.13.js
+802 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.13.min.js
+803 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.14.js
+804 silly gunzTarPerm extractEntry public/js/prod/jsbin-3.2.14.min.js
+805 silly gunzTarPerm extractEntry public/js/prod/jsbin.map.json
+806 silly gunzTarPerm extractEntry public/js/render/console.js
+807 silly gunzTarPerm extractEntry public/js/render/edit.js
+808 silly gunzTarPerm extractEntry public/js/render/live.js
+809 silly gunzTarPerm extractEntry public/js/render/render.js
+810 silly gunzTarPerm extractEntry public/js/render/saved-history-preview.js
+811 silly gunzTarPerm extractEntry public/js/editors/autocomplete.js
+812 silly gunzTarPerm extractEntry public/js/editors/editors.js
+813 silly gunzTarPerm extractEntry public/js/editors/keycontrol.js
+814 silly gunzTarPerm extractEntry public/js/editors/libraries.js
+815 silly gunzTarPerm extractEntry public/js/editors/codemirror.js
+816 silly gunzTarPerm extractEntry public/js/editors/mobileCodeMirror.js
+817 silly gunzTarPerm extractEntry public/js/editors/panel.js
+818 silly gunzTarPerm extractEntry public/js/editors/snippets.cm.js
+819 silly gunzTarPerm extractEntry public/js/editors/sync-worker.js
+820 silly gunzTarPerm extractEntry public/js/editors/unsaved.js
+821 silly gunzTarPerm extractEntry public/js/editors/library.js
+822 silly gunzTarPerm extractEntry public/js/vendor/typescript.min.js
+823 silly gunzTarPerm extractEntry public/js/vendor/jade.js
+824 silly gunzTarPerm extractEntry public/js/vendor/jquery.js
+825 silly gunzTarPerm extractEntry public/js/vendor/traceur.js
+826 silly gunzTarPerm extractEntry public/js/vendor/eventsource.js
+827 silly gunzTarPerm extractEntry public/js/vendor/stylus.js
+828 silly gunzTarPerm extractEntry public/js/vendor/markdown.js
+829 silly gunzTarPerm extractEntry public/js/vendor/polyfills.js
+830 silly gunzTarPerm extractEntry public/js/vendor/pretty-date.js
+831 silly gunzTarPerm extractEntry public/js/vendor/prettyprint.js
+832 silly gunzTarPerm extractEntry public/js/vendor/diff_match_patch_uncompressed.js
+833 silly gunzTarPerm extractEntry public/js/vendor/processing.min.js
+834 silly gunzTarPerm extractEntry public/js/vendor/coffee-script.js
+835 silly gunzTarPerm extractEntry public/js/vendor/stacktrace.js
+836 silly gunzTarPerm extractEntry public/js/vendor/json2.js
+837 silly gunzTarPerm extractEntry public/js/vendor/less-1.3.0.min.js
+838 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/package.json
+839 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/README.md
+840 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/LICENSE
+841 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/modes.html
+842 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/baboon.png
+843 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/compress.html
+844 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/docs.css
+845 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/internals.html
+846 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/manual.html
+847 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/baboon_vector.svg
+848 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/oldrelease.html
+849 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/realworld.html
+850 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/reporting.html
+851 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/upgrade_v2.2.html
+852 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/doc/upgrade_v3.html
+853 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/dialog/dialog.js
+854 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/dialog/dialog.css
+855 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/closebrackets.js
+856 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/closetag.js
+857 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/continuecomment.js
+858 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/continuelist.js
+859 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/edit/matchbrackets.js
+860 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/fold/collapserange.js
+861 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/fold/foldcode.js
+862 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/format/formatting.js
+863 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/javascript-hint.js
+864 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/pig-hint.js
+865 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/python-hint.js
+866 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/show-hint.js
+867 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/simple-hint.js
+868 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/xml-hint.js
+869 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/show-hint.css
+870 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/hint/simple-hint.css
+871 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/lint/javascript-lint.js
+872 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/lint/json-lint.js
+873 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/lint/lint.js
+874 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/lint/lint.css
+875 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/mode/loadmode.js
+876 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/mode/multiplex.js
+877 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/mode/overlay.js
+878 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/runmode/colorize.js
+879 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/runmode/runmode-standalone.js
+880 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/runmode/runmode.js
+881 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/runmode/runmode.node.js
+882 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/search/match-highlighter.js
+883 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/search/search.js
+884 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/search/searchcursor.js
+885 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/selection/active-line.js
+886 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/addon/selection/mark-selection.js
+887 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/bin/compress
+888 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/marker.html
+889 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/activeline.html
+890 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/btree.html
+891 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/buffers.html
+892 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/changemode.html
+893 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/closebrackets.html
+894 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/closetag.html
+895 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/collapserange.html
+896 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/complete.html
+897 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/emacs.html
+898 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/folding.html
+899 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/formatting.html
+900 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/fullscreen.html
+901 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/lint.html
+902 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/loadmode.html
+903 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/bidi.html
+904 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/markselection.html
+905 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/matchhighlighter.html
+906 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/multiplex.html
+907 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/mustache.html
+908 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/preview.html
+909 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/resize.html
+910 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/runmode.html
+911 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/search.html
+912 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/theme.html
+913 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/variableheight.html
+914 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/vim.html
+915 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/visibletabs.html
+916 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/widget.html
+917 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/demo/xmlcomplete.html
+918 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/CONTRIBUTING.md
+919 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/index.html
+920 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/keymap/emacs.js
+921 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/keymap/vim.js
+922 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/lib/codemirror.js
+923 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/lib/codemirror.css
+924 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/meta.js
+925 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/php/php.js
+926 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/php/index.html
+927 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clike/clike.js
+928 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clike/index.html
+929 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clike/scala.html
+930 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clojure/clojure.js
+931 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/clojure/index.html
+932 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/coffeescript/LICENSE
+933 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/coffeescript/coffeescript.js
+934 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/coffeescript/index.html
+935 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/commonlisp/commonlisp.js
+936 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/commonlisp/index.html
+937 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/css/css.js
+938 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/css/test.js
+939 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/css/index.html
+940 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/d/d.js
+941 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/d/index.html
+942 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/diff/diff.js
+943 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/diff/index.html
+944 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ecl/ecl.js
+945 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ecl/index.html
+946 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/erlang/erlang.js
+947 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/erlang/index.html
+948 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/gfm/gfm.js
+949 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/gfm/test.js
+950 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/gfm/index.html
+951 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/go/go.js
+952 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/go/index.html
+953 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/groovy/groovy.js
+954 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/groovy/index.html
+955 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/haskell/haskell.js
+956 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/haskell/index.html
+957 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/haxe/haxe.js
+958 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/haxe/index.html
+959 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/htmlembedded/htmlembedded.js
+960 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/htmlembedded/index.html
+961 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/htmlmixed/htmlmixed.js
+962 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/htmlmixed/index.html
+963 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/http/http.js
+964 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/http/index.html
+965 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/javascript/javascript.js
+966 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/javascript/index.html
+967 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/javascript/typescript.html
+968 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/jinja2/jinja2.js
+969 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/jinja2/index.html
+970 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/less/less.js
+971 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/less/index.html
+972 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/lua/lua.js
+973 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/lua/index.html
+974 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/markdown/markdown.js
+975 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/markdown/test.js
+976 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/markdown/index.html
+977 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/apl/apl.js
+978 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/apl/index.html
+979 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/mysql/mysql.js
+980 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/mysql/index.html
+981 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ntriples/ntriples.js
+982 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ntriples/index.html
+983 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ocaml/ocaml.js
+984 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ocaml/index.html
+985 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pascal/LICENSE
+986 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pascal/pascal.js
+987 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pascal/index.html
+988 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/perl/LICENSE
+989 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/perl/perl.js
+990 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/perl/index.html
+991 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/asterisk/asterisk.js
+992 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/asterisk/index.html
+993 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pig/pig.js
+994 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/pig/index.html
+995 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/plsql/plsql.js
+996 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/plsql/index.html
+997 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/properties/properties.js
+998 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/properties/index.html
+999 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/python/python.js
+1000 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/python/LICENSE.txt
+1001 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/python/index.html
+1002 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/q/q.js
+1003 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/q/index.html
+1004 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/r/LICENSE
+1005 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/r/r.js
+1006 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/r/index.html
+1007 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/changes/changes.js
+1008 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/changes/index.html
+1009 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/spec/spec.js
+1010 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/spec/index.html
+1011 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rpm/spec/spec.css
+1012 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rst/rst.js
+1013 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rst/index.html
+1014 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ruby/LICENSE
+1015 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ruby/ruby.js
+1016 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/ruby/index.html
+1017 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rust/rust.js
+1018 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/rust/index.html
+1019 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sass/sass.js
+1020 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sass/index.html
+1021 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/scheme/scheme.js
+1022 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/scheme/index.html
+1023 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/shell/shell.js
+1024 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/shell/index.html
+1025 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sieve/LICENSE
+1026 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sieve/sieve.js
+1027 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sieve/index.html
+1028 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/smalltalk/smalltalk.js
+1029 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/smalltalk/index.html
+1030 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/smarty/smarty.js
+1031 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/smarty/index.html
+1032 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sparql/sparql.js
+1033 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sparql/index.html
+1034 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sql/sql.js
+1035 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/sql/index.html
+1036 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/stex/stex.js
+1037 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/stex/test.js
+1038 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/stex/index.html
+1039 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiddlywiki/tiddlywiki.js
+1040 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiddlywiki/index.html
+1041 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiddlywiki/tiddlywiki.css
+1042 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiki/tiki.js
+1043 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiki/index.html
+1044 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/tiki/tiki.css
+1045 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/turtle/turtle.js
+1046 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/turtle/index.html
+1047 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vb/vb.js
+1048 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vb/LICENSE.txt
+1049 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vb/index.html
+1050 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vbscript/vbscript.js
+1051 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/vbscript/index.html
+1052 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/velocity/velocity.js
+1053 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/velocity/index.html
+1054 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/verilog/verilog.js
+1055 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/verilog/index.html
+1056 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xml/xml.js
+1057 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xml/index.html
+1058 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xquery/LICENSE
+1059 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xquery/test.js
+1060 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xquery/xquery.js
+1061 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/xquery/index.html
+1062 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/yaml/yaml.js
+1063 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/yaml/index.html
+1064 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/z80/z80.js
+1065 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/mode/z80/index.html
+1066 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/.travis.yml
+1067 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/doc_test.js
+1068 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/driver.js
+1069 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/mode_test.js
+1070 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/phantom_driver.js
+1071 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/run.js
+1072 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/test.js
+1073 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/vim_test.js
+1074 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/index.html
+1075 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/lint/acorn.js
+1076 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/lint/lint.js
+1077 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/lint/parse-js.js
+1078 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/lint/walk.js
+1079 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/test/mode_test.css
+1080 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/monokai.css
+1081 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/ambiance-mobile.css
+1082 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/blackboard.css
+1083 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/cobalt.css
+1084 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/eclipse.css
+1085 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/elegant.css
+1086 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/erlang-dark.css
+1087 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/lesser-dark.css
+1088 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/ambiance.css
+1089 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/neat.css
+1090 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/night.css
+1091 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/rubyblue.css
+1092 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/solarized.css
+1093 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/twilight.css
+1094 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/vibrant-ink.css
+1095 silly gunzTarPerm extractEntry public/js/vendor/codemirror3/theme/xq-dark.css
+1096 silly gunzTarPerm extractEntry public/js/vendor/jshint/jshint.js
+1097 silly gunzTarPerm extractEntry public/js/vendor/cm_addons/emmet.js
+1098 silly gunzTarPerm extractEntry public/js/vendor/cm_addons/javascript-hint.js
+1099 silly gunzTarPerm extractEntry public/js/vendor/cm_addons/simple-hint.js
+1100 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/app.js
+1101 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/background.js
+1102 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon128.png
+1103 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon16.png
+1104 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon48.png
+1105 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon_128.png
+1106 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon_16.png
+1107 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/icon_48.png
+1108 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome/manifest.json
+1109 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/chrome-updates.xml
+1110 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/app.js
+1111 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/Icon-128.png
+1112 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/Icon-16.png
+1113 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/Icon-48.png
+1114 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/Info.plist
+1115 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/safari.safariextension/background.html
+1116 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/1280x800.png
+1117 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/1400x500.png
+1118 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/1400x560.png
+1119 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/1400x580.png
+1120 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/480x280.png
+1121 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin/screenshots-chrome/640x400.png
+1122 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin.crx
+1123 silly gunzTarPerm extractEntry public/plugins/edit-in-jsbin.safariextz
+1124 silly gunzTarPerm extractEntry public/post.html
+1125 silly gunzTarPerm extractEntry public/sandbox.html
+1126 silly gunzTarPerm extractEntry public/tips.json
+1127 silly gunzTarPerm extractEntry scripts.json
+1128 silly gunzTarPerm extractEntry views/default.js
+1129 silly gunzTarPerm extractEntry views/not_found.js
+1130 silly gunzTarPerm extractEntry views/history.html
+1131 silly gunzTarPerm extractEntry views/default.css
+1132 silly gunzTarPerm extractEntry views/default.html
+1133 silly gunzTarPerm extractEntry views/account.html
+1134 silly gunzTarPerm extractEntry views/error.html
+1135 silly gunzTarPerm extractEntry views/error_email.txt
+1136 silly gunzTarPerm extractEntry views/analytics.html
+1137 silly gunzTarPerm extractEntry views/index.html
+1138 silly gunzTarPerm extractEntry views/list.html
+1139 silly gunzTarPerm extractEntry views/not_found.html
+1140 silly gunzTarPerm extractEntry views/comment.html
+1141 silly gunzTarPerm extractEntry views/report.html
+1142 silly gunzTarPerm extractEntry views/report_email.txt
+1143 silly gunzTarPerm extractEntry views/request.html
+1144 silly gunzTarPerm extractEntry views/reset_email.txt
+1145 verbose read json /Users/schan/.npm/jsbin/3.2.17/package/package.json
+1146 silly lockFile a10b44c0-s-schan-npm-jsbin-3-2-17-package /Users/schan/.npm/jsbin/3.2.17/package
+1147 silly lockFile a10b44c0-s-schan-npm-jsbin-3-2-17-package /Users/schan/.npm/jsbin/3.2.17/package
+1148 silly lockFile 379eea2d-han-npm-jsbin-3-2-17-package-tgz /Users/schan/.npm/jsbin/3.2.17/package.tgz
+1149 silly lockFile 379eea2d-han-npm-jsbin-3-2-17-package-tgz /Users/schan/.npm/jsbin/3.2.17/package.tgz
+1150 silly shasum updated bytes 65536
+1151 silly shasum updated bytes 65536
+1152 silly shasum updated bytes 65536
+1153 silly shasum updated bytes 65536
+1154 silly shasum updated bytes 65536
+1155 silly shasum updated bytes 65536
+1156 silly shasum updated bytes 65536
+1157 silly shasum updated bytes 65536
+1158 silly shasum updated bytes 65536
+1159 silly shasum updated bytes 65536
+1160 silly shasum updated bytes 65536
+1161 silly shasum updated bytes 65536
+1162 silly shasum updated bytes 65536
+1163 silly shasum updated bytes 65536
+1164 silly shasum updated bytes 65536
+1165 silly shasum updated bytes 65536
+1166 silly shasum updated bytes 65536
+1167 silly shasum updated bytes 65536
+1168 silly shasum updated bytes 65536
+1169 silly shasum updated bytes 65536
+1170 silly shasum updated bytes 65536
+1171 silly shasum updated bytes 65536
+1172 silly shasum updated bytes 65536
+1173 silly shasum updated bytes 65536
+1174 silly shasum updated bytes 65536
+1175 silly shasum updated bytes 65536
+1176 silly shasum updated bytes 65536
+1177 silly shasum updated bytes 65536
+1178 silly shasum updated bytes 65536
+1179 silly shasum updated bytes 65536
+1180 silly shasum updated bytes 65536
+1181 silly shasum updated bytes 65536
+1182 silly shasum updated bytes 65536
+1183 silly shasum updated bytes 65536
+1184 silly shasum updated bytes 65536
+1185 silly shasum updated bytes 65536
+1186 silly shasum updated bytes 65536
+1187 silly shasum updated bytes 65536
+1188 silly shasum updated bytes 65536
+1189 silly shasum updated bytes 65536
+1190 silly shasum updated bytes 65536
+1191 silly shasum updated bytes 65536
+1192 silly shasum updated bytes 65536
+1193 silly shasum updated bytes 65536
+1194 silly shasum updated bytes 65536
+1195 silly shasum updated bytes 65536
+1196 silly shasum updated bytes 65536
+1197 silly shasum updated bytes 65536
+1198 silly shasum updated bytes 65536
+1199 silly shasum updated bytes 65536
+1200 silly shasum updated bytes 65536
+1201 silly shasum updated bytes 65536
+1202 silly shasum updated bytes 65536
+1203 silly shasum updated bytes 65536
+1204 silly shasum updated bytes 65536
+1205 silly shasum updated bytes 65536
+1206 silly shasum updated bytes 65536
+1207 silly shasum updated bytes 65536
+1208 silly shasum updated bytes 65536
+1209 silly shasum updated bytes 65536
+1210 silly shasum updated bytes 65536
+1211 silly shasum updated bytes 65536
+1212 silly shasum updated bytes 65536
+1213 silly shasum updated bytes 65536
+1214 silly shasum updated bytes 65536
+1215 silly shasum updated bytes 65536
+1216 silly shasum updated bytes 65536
+1217 silly shasum updated bytes 65536
+1218 silly shasum updated bytes 65536
+1219 silly shasum updated bytes 65536
+1220 silly shasum updated bytes 65536
+1221 silly shasum updated bytes 65536
+1222 silly shasum updated bytes 65536
+1223 silly shasum updated bytes 65536
+1224 silly shasum updated bytes 65536
+1225 silly shasum updated bytes 65536
+1226 silly shasum updated bytes 65536
+1227 silly shasum updated bytes 65536
+1228 silly shasum updated bytes 65536
+1229 silly shasum updated bytes 65536
+1230 silly shasum updated bytes 61834
+1231 info shasum ac3ae5d207400467e3ebad42b7c1efbeb36d02ce
+1231 info shasum /Users/schan/.npm/jsbin/3.2.17/package.tgz
+1232 verbose from cache /Users/schan/.npm/jsbin/3.2.17/package/package.json
+1233 verbose chmod /Users/schan/.npm/jsbin/3.2.17/package.tgz 644
+1234 verbose chown /Users/schan/.npm/jsbin/3.2.17/package.tgz [ 502, 20 ]
+1235 silly lockFile c582450b-npmjs-org-jsbin-jsbin-3-2-17-tgz https://registry.npmjs.org/jsbin/-/jsbin-3.2.17.tgz
+1236 silly lockFile c582450b-npmjs-org-jsbin-jsbin-3-2-17-tgz https://registry.npmjs.org/jsbin/-/jsbin-3.2.17.tgz
+1237 silly lockFile 9da02209-jsbin-3-2-17 jsbin@3.2.17
+1238 silly lockFile 9da02209-jsbin-3-2-17 jsbin@3.2.17
+1239 silly lockFile a880d82e-jsbin jsbin@
+1240 silly lockFile a880d82e-jsbin jsbin@
+1241 silly resolved [ { author: '',
+1241 silly resolved     name: 'jsbin',
+1241 silly resolved     description: 'Collaborative JavaScript Debugging App',
+1241 silly resolved     main: './lib/app',
+1241 silly resolved     version: '3.2.17',
+1241 silly resolved     preferGlobal: 'true',
+1241 silly resolved     homepage: 'http://jsbin.com',
+1241 silly resolved     bin: { jsbin: './bin/jsbin' },
+1241 silly resolved     repository: { type: 'git', url: 'git://github.com/remy/jsbin.git' },
+1241 silly resolved     dependencies:
+1241 silly resolved      { express: '3.0.x',
+1241 silly resolved        asyncjs: '0.0.7',
+1241 silly resolved        'hogan.js': '2.0.0',
+1241 silly resolved        mysql: '0.9.x',
+1241 silly resolved        sqlite3: '2.1.7',
+1241 silly resolved        bcrypt: '0.7.5',
+1241 silly resolved        nodemailer: '0.3.20',
+1241 silly resolved        commander: '1.0.0',
+1241 silly resolved        less: '1.3.0',
+1241 silly resolved        jade: '0.26.3',
+1241 silly resolved        stylus: '0.28.2',
+1241 silly resolved        'flatten.js': '0.1.0',
+1241 silly resolved        soak: '0.3.0',
+1241 silly resolved        async: '~0.1.22',
+1241 silly resolved        lynx: '0.0.11',
+1241 silly resolved        grunt: '~0.4.0',
+1241 silly resolved        'grunt-contrib-concat': '~0.1.2',
+1241 silly resolved        'grunt-contrib-jshint': '~0.1.1',
+1241 silly resolved        'grunt-contrib-uglify': '~0.1.1' },
+1241 silly resolved     devDependencies: {},
+1241 silly resolved     optionalDependencies: {},
+1241 silly resolved     licenses: [ [Object] ],
+1241 silly resolved     readme: '# JS Bin\n\n## Build Process\n\nJS Bin has been designed to work both online at [jsbin.com](http://jsbin.com) but also in your own locally hosted environment - or even live in your own site (if you do host it as a utility, do let us know by pinging [@js_bin](http://twitter.com/js_bin) on twitter).\n\nThere\'s two installation paths: Node (recommended) and PHP.\n\nHistorically JS Bin was built on PHP, but has since moved to Node. The PHP flavour does not support the following:\n\n- Remote rendering\n- CodeCasting\n- Processors\n\nHowever, everything else [released in v3.0.0](https://github.com/remy/jsbin/tags) of JS Bin is available in both, but all releases after are only supported in the Node environment. PHP mileage may vary!\n\nFor detailed instructions on how to build JS Bin in either environment see the [running your own JS Bin document](/remy/jsbin/blob/master/docs/running-your-own-jsbin.md).\n\nIf you install [Node.js](http://nodejs.org) installation is easy:\n\n```\n$ npm install -g jsbin\n$ jsbin\n```\n\nThen open your browser to [http://localhost:3000](http://localhost:3000) and you have a fully working version of JS Bin running locally.\n\n\n## What can JS Bin do?\n\n* Write code and have it both save in real-time, but also render a full preview in real-time\n* Help debug other people\'s JavaScript, HTML or CSS by sharing and editing urls\n* CodeCast - where you share what you\'re typing in JS Bin in real-time\n* Remote rendering - view the output of your JS Bin on any device on any platform, updating in real-time\n* Processors, including: coffee-script, LESS, Markdown and Jade.\n* Debug remote Ajax calls\n\n## About\n\nJS Bin is an open source collaborative web development debugging tool.\n\n## Who built this?\n\nJS Bin was built by [Remy Sharp](http://remysharp.com) and is completely open source and available [http://github.com/remy/jsbin](http://github.com/remy/jsbin). You can also follow [@rem](http://twitter.com/rem) on Twitter where he\'ll tweet about JavaScript, HTML 5 and other such gems.\n\nIf you would like to work with Remy and his company, [Left Logic](http://leftlogic.com) on a front end development project, [please get in touch](http://leftlogic.com/contact?message=Found%20through%20jsbin.com).\n\nUX was kindly donated by [Danny Hope](http://yandleblog.com) who also tweets as [@yandle](http://twitter.com/yandle).\n\nThe vast majority of the port from PHP to Node was done by [Aron Carroll](http://aroncarroll.com/) who also plays in github as [@aron](http://github.com/aron).\n\n## A short history\n\n[JS Bin](http://jsbin.com) is a webapp specifically designed to help JavaScript and CSS folk test snippets of code, within some context, and debug the code collaboratively.\n\nJS Bin allows you to edit and test JavaScript and HTML (reloading the URL also maintains the state of your code - new tabs doesn\'t). Once you\'re happy you can save, and send the URL to a peer for review or help. They can then make further changes saving anew if required.\n\nThe original idea spawned from a conversation with another developer in trying to help him debug an Ajax issue. The original aim was to build it using Google\'s app engine, but in the end, it was [John Resig](http://ejohn.org)\'s [Learning app](http://ejohn.org/apps/learn) that inspired me to build the whole solution in JavaScript with liberal dashes of jQuery and a tiny bit of LAMP for the saving process.\n\n[Version 1](http://1.jsbin.com) of [JS Bin](http://www.flickr.com/photos/remysharp/4284906136) took me the best part of 4 hours to develop [back in 2008](http://remysharp.com/2008/10/06/js-bin-for-collaborative-javascript-debugging/), but [version 2](http://2.jsbin.com) was been rewritten from the ground up and is completely [open source](http://github.com/remy/jsbin).\n',
+1241 silly resolved     readmeFilename: 'README.markdown',
+1241 silly resolved     _id: 'jsbin@3.2.17',
+1241 silly resolved     dist: { shasum: 'ac3ae5d207400467e3ebad42b7c1efbeb36d02ce' },
+1241 silly resolved     _from: 'jsbin@',
+1241 silly resolved     _resolved: 'https://registry.npmjs.org/jsbin/-/jsbin-3.2.17.tgz' } ]
+1242 info install jsbin@3.2.17 into /usr/local/lib
+1243 info installOne jsbin@3.2.17
+1244 verbose from cache /Users/schan/.npm/jsbin/3.2.17/package/package.json
+1245 info /usr/local/lib/node_modules/jsbin unbuild
+1246 verbose read json /usr/local/lib/node_modules/jsbin/package.json
+1247 verbose tar unpack /Users/schan/.npm/jsbin/3.2.17/package.tgz
+1248 silly lockFile fd7d4ba4-usr-local-lib-node-modules-jsbin /usr/local/lib/node_modules/jsbin
+1249 verbose lock /usr/local/lib/node_modules/jsbin /Users/schan/.npm/fd7d4ba4-usr-local-lib-node-modules-jsbin.lock
+1250 silly lockFile 379eea2d-han-npm-jsbin-3-2-17-package-tgz /Users/schan/.npm/jsbin/3.2.17/package.tgz
+1251 verbose lock /Users/schan/.npm/jsbin/3.2.17/package.tgz /Users/schan/.npm/379eea2d-han-npm-jsbin-3-2-17-package-tgz.lock
+1252 silly gunzTarPerm modes [ '755', '644' ]
+1253 error Error: EACCES, mkdir '/usr/local/lib/node_modules/jsbin'
+1253 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/jsbin']
+1253 error   errno: 3,
+1253 error   code: 'EACCES',
+1253 error   path: '/usr/local/lib/node_modules/jsbin',
+1253 error   fstream_type: 'Directory',
+1253 error   fstream_path: '/usr/local/lib/node_modules/jsbin',
+1253 error   fstream_class: 'DirWriter',
+1253 error   fstream_stack:
+1253 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+1253 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+1253 error      'Object.oncomplete (fs.js:107:15)' ] }
+1254 error Please try running this command again as root/Administrator.
+1255 error System Darwin 12.5.0
+1256 error command "node" "/usr/local/bin/npm" "install" "-g" "jsbin"
+1257 error cwd /Users/schan/flatiron-school-training/Ruby-Unit-Lecture-03
+1258 error node -v v0.10.5
+1259 error npm -v 1.2.18
+1260 error path /usr/local/lib/node_modules/jsbin
+1261 error fstream_path /usr/local/lib/node_modules/jsbin
+1262 error fstream_type Directory
+1263 error fstream_class DirWriter
+1264 error code EACCES
+1265 error errno 3
+1266 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/jsbin'
+1267 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+1267 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+1267 error fstream_stack Object.oncomplete (fs.js:107:15)
+1268 verbose exit [ 3, true ]
